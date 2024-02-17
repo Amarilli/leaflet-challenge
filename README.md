@@ -29,7 +29,9 @@ I included popups that provide information when its associated marker is clicked
 - Depth,
 - Number of reports.
 
-I created a legend that provides context about the earthquake depth.
+I created a transparent legend that provides context about the earthquake depth.
+
+![legend](https://github.com/Amarilli/leaflet-challenge/blob/main/Images/legend.png)
 
 ## Part 2: Gather and Plot More Data
 
@@ -44,5 +46,5 @@ Each dataset I chose (Earthquakes and Tectonic Plates) is situated into separate
 
 The deployment of the map is visible at [GitHub Pages](https://amarilli.github.io/leaflet-challenge/)
 
-![mappa](
+![mappa](https://github.com/Amarilli/leaflet-challenge/blob/main/Images/map.png)
 
