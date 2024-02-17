@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #0c0c0c;
+  background-color: rgba(59, 189, 224, 0.5); /* Adjust the transparency */
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.leaflet-popup-content-wrapper {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency */
+  border-radius: 5px;
+}
+
+.leaflet-popup-content {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 8px 12px;
+}
+
+.leaflet-popup-tip-container {
+  display: none; /* Hide the default popup tip */
+}
