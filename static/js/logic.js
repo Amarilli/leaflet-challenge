@@ -33,7 +33,7 @@ function colorDepth(depth) {
             return "#FFA500"; // Orange
         case (70 <= depth && depth <= 90):
             return  "#FF6961"; // Pale red
-        case (90 <= depth && depth <=100):
+        case (90 <= depth && depth <=500):
             return "#BC0000";
         default:
             return "#008000"; // Green 
